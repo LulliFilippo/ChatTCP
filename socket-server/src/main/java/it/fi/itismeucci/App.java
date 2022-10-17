@@ -6,7 +6,7 @@ public class App
 {
     public static void main( String[] args ) throws IOException
     {
-        socketServer server = new socketServer();
+        Server server = new Server();
         server.avvia();
     }
 }

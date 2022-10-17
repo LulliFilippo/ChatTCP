@@ -14,7 +14,7 @@ public class socketClient{
     private String serverString;
 
     public Socket connect() throws IOException{
-        this.socket = new Socket(InetAddress.getLocalHost(), 34567);
+        this.socket = new Socket(InetAddress.getLocalHost(), 42069);
         this.in = new DataInputStream(socket.getInputStream());
         this.out = new DataOutputStream(socket.getOutputStream());
         return socket;
